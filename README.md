@@ -13,9 +13,11 @@
 
 <br/>
 
-<img src="assets/demos/hero.gif" width="480" alt="OpenVLA-7B on LIBERO-Spatial — 10 successful tasks"/>
+<a href="assets/demos/openvla_libero_4suite_demo.mp4" title="Click to play full 4-suite demo MP4 (5 MB, 40 clips, ~4 min)">
+<img src="assets/demos/hero.gif" width="480" alt="OpenVLA-7B on LIBERO-Spatial — 10 successful tasks (click to play full 4-suite MP4)"/>
+</a>
 
-*OpenVLA-7B on LIBERO-Spatial — 10 tasks, all successful*
+<sub>▶ <b>Click the animation</b> to play the full <b>4-suite demo MP4</b> (40 clips, ~4 min, 5 MB) — or browse <a href="assets/demos/">assets/demos/</a> for all videos.</sub>
 
 </div>
 
@@ -30,29 +32,29 @@
 <td align="center">
 <b>Spatial</b> · 78% SR<br/>
 <i>same object, different positions</i><br/>
-<img src="assets/demos/preview_spatial.gif" width="320"/>
+<a href="assets/demos/openvla_libero_spatial_demo.mp4" title="Click to play full Spatial demo MP4"><img src="assets/demos/preview_spatial.gif" width="320" alt="Spatial demo — click to play full MP4"/></a>
 </td>
 <td align="center">
 <b>Object</b> · 60% SR<br/>
 <i>same layout, different objects</i><br/>
-<img src="assets/demos/preview_object.gif" width="320"/>
+<a href="assets/demos/openvla_libero_4suite_demo.mp4" title="Click to play full 4-suite demo MP4"><img src="assets/demos/preview_object.gif" width="320" alt="Object demo — click to play full MP4"/></a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <b>Goal</b> · 77% SR<br/>
 <i>different task goals</i><br/>
-<img src="assets/demos/preview_goal.gif" width="320"/>
+<a href="assets/demos/openvla_libero_4suite_demo.mp4" title="Click to play full 4-suite demo MP4"><img src="assets/demos/preview_goal.gif" width="320" alt="Goal demo — click to play full MP4"/></a>
 </td>
 <td align="center">
 <b>Long (10)</b> · 53% SR<br/>
 <i>long-horizon multi-step tasks</i><br/>
-<img src="assets/demos/preview_long.gif" width="320"/>
+<a href="assets/demos/openvla_libero_4suite_demo.mp4" title="Click to play full 4-suite demo MP4"><img src="assets/demos/preview_long.gif" width="320" alt="Long demo — click to play full MP4"/></a>
 </td>
 </tr>
 </table>
 
-<sub>Previews are 20 s excerpts from the full <a href="assets/demos/openvla_libero_4suite_demo.mp4">4-suite demo MP4 (5 MB, 40 clips)</a>. 400 full rollouts available after running the eval scripts below.</sub>
+<sub>GIFs are 20 s previews that autoplay (click to stop on GitHub). <b>Click any preview</b> to play the corresponding MP4 with pause / seek / fullscreen controls. Full <a href="assets/demos/openvla_libero_4suite_demo.mp4">4-suite MP4 (40 clips, 5 MB)</a> recommended.</sub>
 
 </div>
 
