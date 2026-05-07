@@ -1,6 +1,9 @@
+<div align="center">
+
 # openvla-libero
 
-**Reproducing [OpenVLA-7B](https://github.com/openvla/openvla) on the [LIBERO](https://libero-project.github.io/) 4-suite benchmark** — full scripts, eval logs, per-task numbers and 400 rollout videos on a single commodity GPU.
+**Reproducing [OpenVLA-7B](https://github.com/openvla/openvla) on the [LIBERO](https://libero-project.github.io/) 4-suite benchmark**
+*Full scripts, eval logs, per-task numbers and 400 rollout videos on a single commodity GPU.*
 
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
 [![OpenVLA](https://img.shields.io/badge/model-OpenVLA--7B-orange)](https://github.com/openvla/openvla)
@@ -8,9 +11,50 @@
 [![GPU](https://img.shields.io/badge/GPU-NVIDIA%20H20-76B900)]()
 [![Hardware](https://img.shields.io/badge/hardware-single%20GPU-yellow)]()
 
-![LIBERO-Spatial demo](assets/demos/hero.gif)
+<br/>
 
-> *OpenVLA-7B on LIBERO-Spatial — one clip per task × 10 tasks*
+<img src="assets/demos/hero.gif" width="480" alt="OpenVLA-7B on LIBERO-Spatial — 10 successful tasks"/>
+
+*OpenVLA-7B on LIBERO-Spatial — 10 tasks, all successful*
+
+</div>
+
+---
+
+## 🎬 All 4 suites at a glance
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<b>Spatial</b> · 78% SR<br/>
+<i>same object, different positions</i><br/>
+<img src="assets/demos/preview_spatial.gif" width="320"/>
+</td>
+<td align="center">
+<b>Object</b> · 60% SR<br/>
+<i>same layout, different objects</i><br/>
+<img src="assets/demos/preview_object.gif" width="320"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+<b>Goal</b> · 77% SR<br/>
+<i>different task goals</i><br/>
+<img src="assets/demos/preview_goal.gif" width="320"/>
+</td>
+<td align="center">
+<b>Long (10)</b> · 53% SR<br/>
+<i>long-horizon multi-step tasks</i><br/>
+<img src="assets/demos/preview_long.gif" width="320"/>
+</td>
+</tr>
+</table>
+
+<sub>Previews are 20 s excerpts from the full <a href="assets/demos/openvla_libero_4suite_demo.mp4">4-suite demo MP4 (5 MB, 40 clips)</a>. 400 full rollouts available after running the eval scripts below.</sub>
+
+</div>
 
 ---
 
